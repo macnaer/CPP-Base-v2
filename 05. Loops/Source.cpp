@@ -19,21 +19,21 @@ void main() {
 		iterator--;
 	} while (iterator != 0);*/
 
-	//int value = 0, sum = 0, iterator = 1;
+	/*int value = 0, sum = 0, iterator = 1;
 
-	//while (iterator <= 10)
-	//{
-	//	cout << "Enter number: " << iterator << ": ";
-	//	cin >> value;
-	//	sum += value;
-	//	iterator++;
-	//}
-	//
+	while (iterator <= 10)
+	{
+		cout << "Enter number: " << iterator << ": ";
+		cin >> value;
+		sum += value;
+		iterator++;
+	}*/
+	
 
 	//cout << "Sum = " << sum << endl;
 	//cout << "AVG = " << sum / (--iterator) << endl;
 
-	bool exit = false;
+	/*bool exit = false;
 	int choise = 0;
 
 	while (!exit) {
@@ -53,6 +53,21 @@ void main() {
 		{
 			cout << "Error. Wring choise." << endl;
 		}
+	}*/
+
+	int temp = 0;
+	int dayCounter = 0;
+	int iterator = 1;
+
+	while (iterator <= 7)
+	{
+		cout << "Enter temp... day " << iterator << endl;
+		cin >> temp;
+		if (temp > 10) {
+			dayCounter++;
+		}
+		iterator++;
 	}
 	
+	cout << "Day when temperature more then 10*: " << dayCounter << endl;
 }
