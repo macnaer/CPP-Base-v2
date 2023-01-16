@@ -16,7 +16,7 @@ void main() {
 			else {
 				cout << "# ";
 			}
-			
+
 		}
 		cout << endl;
 	}
