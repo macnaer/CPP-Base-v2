@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Loops", "05. Loops\05. 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Loops part 2", "06. Loops part 2\06. Loops part 2.vcxproj", "{57E31132-23B7-4EE1-81E7-7299406CFC76}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Internal loops", "Project1\Project1.vcxproj", "{3EF66E94-91CC-4537-9756-743655CBD788}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{57E31132-23B7-4EE1-81E7-7299406CFC76}.Release|x64.Build.0 = Release|x64
 		{57E31132-23B7-4EE1-81E7-7299406CFC76}.Release|x86.ActiveCfg = Release|Win32
 		{57E31132-23B7-4EE1-81E7-7299406CFC76}.Release|x86.Build.0 = Release|Win32
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Debug|x64.ActiveCfg = Debug|x64
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Debug|x64.Build.0 = Debug|x64
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Debug|x86.Build.0 = Debug|Win32
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Release|x64.ActiveCfg = Release|x64
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Release|x64.Build.0 = Release|x64
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Release|x86.ActiveCfg = Release|Win32
+		{3EF66E94-91CC-4537-9756-743655CBD788}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
