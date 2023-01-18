@@ -42,17 +42,45 @@ void main() {
 
 	cout << "=============== Print array================" << endl;
 
+
+
 	for (int i = 0; i < SIZE; i++)
 	{
 		cout << "Arr [" << i << "] = " << arr[i] << endl;
-		if (arr[i] > 0) {
+		/*if (arr[i] > 0) {
 			plusCouner++;
 		}
 		else if (arr[i] < 0) {
 			minusCounter++;
+		}*/
+	}
+
+	int max = -13;
+	int min = 100;
+	int maxIndex = 0;
+
+	for (int i = 0; i < SIZE; i++)
+	{
+		if (max < arr[i]) {
+			max = arr[i];
+			maxIndex = i;
 		}
 	}
 
-	cout << "More then 0 = " << plusCouner << endl;
-	cout << "Less then 0 = " << minusCounter << endl;
+
+	cout << "=============================" << endl;
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << "Arr [" << i << "] = " << arr[i] << endl;
+		/*if (arr[i] > 0) {
+			plusCouner++;
+		}
+		else if (arr[i] < 0) {
+			minusCounter++;
+		}*/
+	}
+
+	cout << "maxIndex = " << maxIndex << endl;
+	//cout << "More then 0 = " << plusCouner << endl;
+	//cout << "Less then 0 = " << minusCounter << endl;
 }
