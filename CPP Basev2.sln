@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08. Arrays", "08. Arrays\08
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09. Arrays with bubble sort", "09. Arrays with bubble sort\09. Arrays with bubble sort.vcxproj", "{8870CFF5-E9CB-4376-B2CD-D3207FD3A709}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10. Functions", "10. functions\10. functions.vcxproj", "{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{8870CFF5-E9CB-4376-B2CD-D3207FD3A709}.Release|x64.Build.0 = Release|x64
 		{8870CFF5-E9CB-4376-B2CD-D3207FD3A709}.Release|x86.ActiveCfg = Release|Win32
 		{8870CFF5-E9CB-4376-B2CD-D3207FD3A709}.Release|x86.Build.0 = Release|Win32
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Debug|x64.ActiveCfg = Debug|x64
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Debug|x64.Build.0 = Debug|x64
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Debug|x86.Build.0 = Debug|Win32
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Release|x64.ActiveCfg = Release|x64
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Release|x64.Build.0 = Release|x64
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Release|x86.ActiveCfg = Release|Win32
+		{8FDF090D-4FAA-42EB-8F3A-84C2B1A9A064}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
