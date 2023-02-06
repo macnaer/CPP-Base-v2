@@ -47,7 +47,7 @@ void main() {
 				<< sizeof(result) << " Result address: " << &result << endl;*/
 
 	int a = 0, b = 0;
-	char sign;
+	
 
 	cout << "Enter first digit: ";
 	cin >> a;
@@ -55,7 +55,7 @@ void main() {
 	cout << "Enter second digit: ";
 	cin >> b;
 
-	sign = Compare(a, b);
+	char sign = Compare(a, b);
 	cout << "A " << sign << " B" << endl;
 }
 
