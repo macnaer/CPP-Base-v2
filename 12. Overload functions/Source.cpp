@@ -50,18 +50,18 @@ void FillArray(int arr[ROW][COL]) {
 	}
 }
 
-void FillArray(int arr[ROW][COL], int start, int end) {
+void FillArray(int arr[ROW][COL], int start, int count) {
 	if (start <= 0) {
 		for (int i = 0; i < ROW; i++) {
 			for (int j = 0; j < COL; j++) {
-				arr[i][j] = start + rand() % end;
+				arr[i][j] = start + rand() % count;
 			}
 		}
 	}
 	else {
 		for (int i = 0; i < ROW; i++) {
 			for (int j = 0; j < COL; j++) {
-				arr[i][j] = -start + rand() % end;
+				arr[i][j] = -start + rand() % count;
 			}
 		}
 	}
