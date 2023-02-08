@@ -12,6 +12,7 @@ const int COL = 7;
 void FillArray(int arr[ROW][COL]);
 void PrintArray(int arr[ROW][COL]);
 void Print(int arr[], const int SIZE);
+void FillArray(int arr[ROW][COL], int start, int end);
 //void PrintArray(int** arr, const int ROW, const int COL);
 
 void main()
@@ -20,7 +21,7 @@ void main()
 	
 	int arr[ROW][COL];
 
-	FillArray(arr);
+	FillArray(arr, -50, 100);
 	PrintArray(arr);
 
 	const int SIZE = 10;
@@ -45,6 +46,23 @@ void FillArray(int arr[ROW][COL]) {
 	for (int i = 0; i < ROW; i++) {
 		for (int j = 0; j < COL; j++) {
 			arr[i][j] = rand() % 100;
+		}
+	}
+}
+
+void FillArray(int arr[ROW][COL], int start, int end) {
+	if (start <= 0) {
+		for (int i = 0; i < ROW; i++) {
+			for (int j = 0; j < COL; j++) {
+				arr[i][j] = start + rand() % end;
+			}
+		}
+	}
+	else {
+		for (int i = 0; i < ROW; i++) {
+			for (int j = 0; j < COL; j++) {
+				arr[i][j] = -start + rand() % end;
+			}
 		}
 	}
 }
