@@ -1,1 +1,1 @@
-c++|java|python|c#|
+JavaScript|C++|C#|Python|
